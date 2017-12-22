@@ -2,9 +2,9 @@ applications:
 - path: .
   memory: 128M
   instances: 1
-  domain: mybluemix.net
-  name: Z2C-rddill
-  host: Z2C
+  domain: eu-gb.mybluemix.net
+  name: learn-node
+  host: learn-node
   disk_quota: 1024M
   services:
-    - Speech to Text-xx
+    - speech-to-text-learn
